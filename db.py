@@ -25,5 +25,5 @@ def encode(data):
             if isinstance(value,Decimal):
                 row[key]=str(value)
     return data
-query("""select * from emp""")
+
             
